@@ -1,0 +1,37 @@
+body{
+    background-color: black;
+}
+img{
+    width:  250px;
+    height: 300px;
+    border-radius: 10px;
+    overflow: hidden;
+    
+}
+.line{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    
+}
+.styleLG{
+    transform: translateY(-10%);
+}
+.styleSM{
+    transform: translateY(10px);
+}
+.styleMD{
+    transform: translateY(-10%);
+}
+.gariyuli{
+    transform: translateY(-15%);
+}
+.largeImg{
+    height: 400px;
+}
+.mediumImg{
+    height: 350px;
+}
+.smallImg{
+    height: 300px;
+}
